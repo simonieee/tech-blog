@@ -18,6 +18,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #f00;
 }
 
 .blog-layout-area {
@@ -30,5 +31,6 @@ nav {
   min-height: 100%;
   display: flex;
   justify-content: center;
+  border: 1px solid #f00;
   /* align-items: center; */
 }
