@@ -1,5 +1,6 @@
 .main-content {
   max-width: 1080px;
+  height: 100%;
   width: 1080px;
   margin: 0 auto;
 }
@@ -32,4 +33,52 @@
 
 .section_main .artiicle_filter button:not(:last-child) {
   margin-right: 10px;
+}
+
+.section_main .contentBox_container {
+  width: 1080px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_main .contentBox_container .contentBox {
+  position: relative;
+  width: 28%;
+  height: 200px;
+  padding: 20px;
+  margin: 0px 0px 25px 0;
+  border-radius: 14px;
+  box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+  cursor: pointer;
+}
+
+.section_main .contentBox_container .contentBox_tag {
+  width: 50px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 7px 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  color: #0e566c;
+  background-color: #e9e9e9;
+}
+
+.section_main .contentBox_container .contentBox_tit {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.section_main .contentBox_container .contentBox_summary {
+  margin-top: 15px;
+}
+.section_main .contentBox_container .contentBox_date {
+  position: absolute;
+  color: #9e9e9e;
+  font-size: 14px;
+  bottom: 20px;
+  right: 20px;
 }

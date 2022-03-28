@@ -1,10 +1,14 @@
 import React from "react";
+import Logo from "Assets/img/main/simon_logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <nav>
-        <div>Logo</div>
+        <Link to="/">
+          <img src={Logo} alt="logo" />
+        </Link>
       </nav>
     </header>
   );

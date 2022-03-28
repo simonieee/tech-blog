@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,11 +14,25 @@ nav {
   align-items: center;
 }
 
+nav img {
+  cursor: pointer;
+}
+
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #f00;
+  background-color: #1e1e1e;
+}
+
+.footer .info_copyright {
+  width: 1080px;
+  height: 82px;
+  padding-top: 26px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #aeaeae;
+}
+
+.footer .info_copyright .info_desc:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .blog-layout-area {
@@ -31,6 +45,4 @@ nav {
   min-height: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid #f00;
-  /* align-items: center; */
 }
